@@ -1,0 +1,35 @@
+Data Dictionary
+- ID: ID of each client
+- LIMIT_BAL: Total amount of credit line with the bank (including all individual and
+family/supplementary credit)
+- SEX: Gender (1=male, 2=female)
+- EDUCATION: Education (1=graduate, 2=undergraduate, 3=high‐school, 4=other,
+5,6=unknown)
+- MARRIAGE: Marital status (1=married, 2=single, 3=other)
+- AGE: Age in years
+
+- PAY_1: Repayment status 1 month ago, – in September: (‐2=no need to pay, zero balance,
+“payment holiday”, etc., ‐1=paid in full, 0=revolving credit (meaning client paid more than the
+minimum payment, but less than the total balance), 1= delay for one month, ... 8=delay for 8
+months, 9=delay for 9 months or more)
+- PAY_2: Repayment status 2 months ago, – in August (scale as above for PAY_1)
+- PAY_3: Repayment status 3 months ago (scale as above for PAY_1)
+- PAY_4: Repayment status 4 months ago (scale as above for PAY_1)
+- PAY_5: Repayment status 5 months ago (scale as above for PAY_1)
+- PAY_6: Repayment status 6 months ago (scale as above for PAY_1)
+
+- BILL_AMT1: Amount of bill statement 1 month ago, – in September
+- BILL_AMT2: Amount of bill statement 2 months ago
+- BILL_AMT3: Amount of bill statement 3 months ago
+- BILL_AMT4: Amount of bill statement 4 months ago
+- BILL_AMT5: Amount of bill statement 5 months ago
+- BILL_AMT6: Amount of bill statement 6 months ago
+
+- PAY_AMT1: Amount of payment 1 month ago, – in September
+- PAY_AMT2: Amount of payment 2 months ago
+- PAY_AMT3: Amount of payment 3 months ago
+- PAY_AMT4: Amount of payment 4 months ago
+- PAY_AMT5: Amount of payment 5 months ago
+- PAY_AMT6: Amount of payment 6 months ago
+
+- Default_0: Default in October (1=yes, 0=no)
